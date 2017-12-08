@@ -1,0 +1,184 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.icon-bar {
+    width: 100%;
+    height: 50px;
+    background-color: violet;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: right;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+
+
+
+.img{
+    height: 200px; 
+    width: 200px;
+
+}
+.sizer{
+    height: 150px;
+    width: 150px;
+}
+
+.body{
+	background-color: cyan;
+}
+/*index.html*/
+.title{
+	font-size: 1.5em;
+	position: absolute;
+	left: 35px;
+	top: 200px;
+}
+.start-btn{
+	font-size: 1.5em;
+	width:100px;
+	height:80px;
+	border-color:black;
+	position: absolute;
+	left: 140px;
+	top: 300px;
+}
+/*index1.html*/
+#navbar{
+	background-color: cyan;
+}
+.title2{
+	font-family: Arial Rounded Mt Bold;
+	font-size: 2em;
+	text-align: center;
+	color: black;
+}
+.back{
+	margin-left: 10px;
+	margin-right: 10px;
+	width:50px;
+	height:20px;
+	border-color:black
+}
+.menu-items{
+	width:50px;
+	height:50px;
+	border:0;
+}
+.menu-names{
+	font-family: Arial Rounded Mt Bold;
+	font-size: 1.2em;
+	color: black;
+
+}
+/*Parables*/
+body{
+	font-family: "Lato", sans-serif;
+    font-size: 100px;
+}
+
+span{
+	font-size:40px;
+	cursor:pointer;
+}
+
+li{
+    font-size: 20%;
+}
+
+b{
+    font-size: 30%;
+}
+.line1{
+    font-size: 50%;
+    font-weight: bold;
+    font-family: 'Algerian';
+}
+
+button{ 
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+}
+
+.button:active {
+
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+body{
+    overflow-wrap: all;
+    overflow: auto;
+}
+
+.icon{
+    font-size: 100px;
+}
+img {
+    width:10%;
+    height: auto;
+}
